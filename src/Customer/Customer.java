@@ -3,13 +3,15 @@ package Customer;
 // TODO: INIT CUSTOMER NAMES
 
 public abstract class Customer {
+    public String customerName;
     public Integer maxToolsRentable;
     public Integer minToolsRentable;
     public Integer maxRentalPeriod;
     public Integer minRentalPeriod;
     public Integer toolsRented = 0;
 
-    public Customer(CustomerType membership) {
+    public Customer(CustomerType membership, String customerName) {
+        this.customerName = customerName;
         this.membership = membership;
         assignRentals();
     }

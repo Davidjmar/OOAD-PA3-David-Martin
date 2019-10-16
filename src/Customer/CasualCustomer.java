@@ -2,8 +2,8 @@ package Customer;
 
 public class CasualCustomer extends Customer {
 
-    CasualCustomer() {
-        super(CustomerType.CASUAL);
+    CasualCustomer(String customerName) {
+        super(CustomerType.CASUAL, customerName);
         construct();
     }
 

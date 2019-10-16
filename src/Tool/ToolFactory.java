@@ -19,6 +19,5 @@ public class ToolFactory {
 
     public static void main(String[] args) {
         System.out.println(ToolFactory.buildTool(ToolType.PAINTING, "Paint Tool 1"));
-
     }
 }

@@ -10,7 +10,6 @@ public class PaintingTool extends Tool {
     @Override
     protected void construct() {
         System.out.println("Building painting tool");
-        // this.toolName;
         this.price = 20;
     }
 }
