@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CarFactory",
+            "request": "launch",
+            "mainClass": "Car.CarFactory"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestFactoryPattern",
+            "request": "launch",
+            "mainClass": "Car.TestFactoryPattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CustomerFactory",
+            "request": "launch",
+            "mainClass": "Customers.CustomerFactory"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FactoryHandler",
+            "request": "launch",
+            "mainClass": "Customers.FactoryHandler"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Simulator",
             "request": "launch",
             "mainClass": "Simulator"
