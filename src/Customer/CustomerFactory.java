@@ -5,13 +5,13 @@ public class CustomerFactory {
         Customer customer = null;
         switch (membership) {
 
-        // case SMALL:
-        // car = new SmallCar();
-        // break;
+        case BUSINESS:
+            customer = new BusinessCustomer();
+            break;
 
-        // case SEDAN:
-        // car = new SedanCar();
-        // break;
+        case CASUAL:
+            customer = new CasualCustomer();
+            break;
 
         case REGULAR:
             customer = new RegularCustomer();

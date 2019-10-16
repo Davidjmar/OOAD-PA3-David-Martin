@@ -1,17 +1,23 @@
 package Customer;
 
 public abstract class Customer {
+    public Integer maxToolsRentable;
+    public Integer minToolsRentable;
+    public Integer maxRentalPeriod;
+    public Integer minRentalPeriod;
+    public Integer toolsRented = 0;
 
     public Customer(CustomerType membership) {
         this.membership = membership;
-        arrangeParts();
+        assignRentals();
     }
 
-    private void arrangeParts() {
+    private void assignRentals() {
         // Do one time processing here
+        // Maybe not
     }
 
-    // Do subclass level processing in this method
+    // Method for subclass processing
     protected abstract void construct();
 
     private CustomerType membership = null;

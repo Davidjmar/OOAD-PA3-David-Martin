@@ -10,6 +10,9 @@ public class RegularCustomer extends Customer {
     @Override
     protected void construct() {
         System.out.println("Building regular customer");
-        // add accessories
+        this.minToolsRentable = 1;
+        this.maxToolsRentable = 3;
+        this.minRentalPeriod = 3;
+        this.maxRentalPeriod = 5;
     }
 }
