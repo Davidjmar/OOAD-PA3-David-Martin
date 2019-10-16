@@ -10,7 +10,6 @@ Contributor: David Martin
     - In this case the Point of Sale system will be the observer to the rentals and returns
  - Instantiating customers -> Factory Pattern
 
-
 **Classes To Use**
 - Rental (Rentals will be intialized by a customer, deprecate the tool inventory, and store the return date)
     self.tools (number limited by the customer.type)
@@ -29,7 +28,6 @@ Contributor: David Martin
 - Tools (Tools will monitor the tools in inventory and be randomly assigned to )
 - Price (price will inherit from tools and set the price based on the kind of tool)
 - Simulator (this will be the main point to run the program from)
-
 
 Each day simulated the program will:
         The program will:
