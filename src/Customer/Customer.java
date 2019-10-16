@@ -1,5 +1,7 @@
 package Customer;
 
+// TODO: INIT CUSTOMER NAMES
+
 public abstract class Customer {
     public Integer maxToolsRentable;
     public Integer minToolsRentable;

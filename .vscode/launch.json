@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ToolFactory",
+            "request": "launch",
+            "mainClass": "Tool.ToolFactory"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CarFactory",
             "request": "launch",
             "mainClass": "Car.CarFactory"

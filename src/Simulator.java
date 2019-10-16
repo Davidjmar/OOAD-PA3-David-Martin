@@ -1,7 +1,6 @@
 import Day.*;
 import Customer.*;
-
-import java.util.Random;
+import Tool.*;
 
 public class Simulator {
     public static void main(String[] args) {
@@ -11,8 +10,10 @@ public class Simulator {
         // int days = 35;
         // arr = new Day[days]
 
-        // TODO: Build out tools factory, be sure to build out options with it
+        // TODO: Build out tools factory, be sure to build out Options with it
         // Tool [] toolArr
+        // toolArr = Inventory.buildArray();
+        // ARRAY OF TOOLS INITIALIZED
 
         Customer[] customerArr;
         customerArr = InitCustomers.buildArray();
