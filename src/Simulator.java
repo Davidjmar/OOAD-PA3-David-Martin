@@ -10,9 +10,11 @@ public class Simulator {
         // int days = 35;
         // arr = new Day[days]
 
-        // TODO: Build out tools factory, be sure to build out Options with it
-        // Tool [] toolArr
-        // toolArr = Inventory.buildArray();
+        // TODO: Build out tool Options
+
+        // TODO: Populate 14 more tools (save it for the end if you want)
+        Tool[] toolArr;
+        toolArr = ToolInventory.buildArray();
         // ARRAY OF TOOLS INITIALIZED
 
         Customer[] customerArr;

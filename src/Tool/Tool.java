@@ -1,6 +1,6 @@
 package Tool;
 
-// TODO: INIT Tools
+// TODO: ToolInventory
 
 public abstract class Tool {
     // Name, Catergory, Price, and Rental Status
