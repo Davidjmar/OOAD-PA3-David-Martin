@@ -1,0 +1,1326 @@
+Building painting tool
+Paint Brush
+Building painting tool
+Paint Tray
+Building painting tool
+Paint Roller
+Building painting tool
+Paint Sprayer
+Building painting tool
+Paint Remover
+Building concrete tool
+Concrete Mixer
+Building concrete tool
+Concrete Spade
+Building concrete tool
+Concrete Molder
+Building concrete tool
+Concrete Buffer
+Building concrete tool
+Concrete Leveler
+Building yardwork tool
+Yard Rake
+Building yardwork tool
+Yard LeafBlower
+Building yardwork tool
+Yard Lawnmower
+Building yardwork tool
+Yard Weedwacker
+Building yardwork tool
+Yard Trashbin
+Building woodwork tool
+Wood Powersaw
+Building woodwork tool
+Wood Sander
+Building woodwork tool
+Wood Router
+Building woodwork tool
+Wood Sawhorse
+Building woodwork tool
+Wood Drill
+Building plumbing tool
+Plumbing Wrench
+Building plumbing tool
+Plumbing Clamp
+Building plumbing tool
+Plumbing Gauge
+Building plumbing tool
+Plumbing Converter
+Building regular customer
+Reginold
+Building business customer
+Barrey
+Building casual customer
+Connie
+Building casual customer
+Sixta
+Building business customer
+Doyle
+Building casual customer
+Van
+Building business customer
+Matt
+Building business customer
+Lavonna
+Building regular customer
+Rona
+Building casual customer
+Henri
+Building regular customer
+Marica
+Building casual customer
+Palmira
+Filling day's customer array. There should be: 12
+Lavonna
+Connie
+Marica
+Palmira
+Matt
+Barrey
+Doyle
+Reginold
+Rona
+Sixta
+Van
+Henri
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 1 was 0
+Filling day's customer array. There should be: 5
+Rona
+Matt
+Van
+Barrey
+Connie
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 2 was 0
+Filling day's customer array. There should be: 3
+Barrey
+Sixta
+Palmira
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 3 was 0
+Filling day's customer array. There should be: 10
+Sixta
+Connie
+Palmira
+Doyle
+Reginold
+Matt
+Lavonna
+Henri
+Rona
+Barrey
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 4 was 0
+Filling day's customer array. There should be: 2
+Barrey
+Reginold
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 5 was 0
+Filling day's customer array. There should be: 12
+Matt
+Palmira
+Rona
+Barrey
+Henri
+Connie
+Sixta
+Marica
+Reginold
+Van
+Doyle
+Lavonna
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 6 was 0
+Filling day's customer array. There should be: 4
+Matt
+Rona
+Doyle
+Sixta
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 7 was 0
+Filling day's customer array. There should be: 12
+Reginold
+Doyle
+Henri
+Connie
+Matt
+Sixta
+Van
+Barrey
+Palmira
+Lavonna
+Marica
+Rona
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 8 was 0
+Filling day's customer array. There should be: 1
+Henri
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 9 was 0
+Filling day's customer array. There should be: 6
+Sixta
+Connie
+Marica
+Van
+Matt
+Palmira
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 10 was 0
+Filling day's customer array. There should be: 5
+Sixta
+Rona
+Van
+Barrey
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 11 was 0
+Filling day's customer array. There should be: 8
+Marica
+Sixta
+Henri
+Connie
+Reginold
+Palmira
+Van
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 12 was 0
+Filling day's customer array. There should be: 11
+Reginold
+Doyle
+Van
+Connie
+Palmira
+Rona
+Sixta
+Marica
+Lavonna
+Matt
+Barrey
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 13 was 0
+Filling day's customer array. There should be: 9
+Reginold
+Sixta
+Rona
+Barrey
+Marica
+Van
+Palmira
+Doyle
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 14 was 0
+Filling day's customer array. There should be: 5
+Van
+Henri
+Connie
+Sixta
+Doyle
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 15 was 0
+Filling day's customer array. There should be: 7
+Matt
+Connie
+Doyle
+Lavonna
+Barrey
+Henri
+Reginold
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 16 was 0
+Filling day's customer array. There should be: 6
+Reginold
+Van
+Rona
+Barrey
+Sixta
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 17 was 0
+Filling day's customer array. There should be: 11
+Rona
+Marica
+Connie
+Van
+Sixta
+Doyle
+Henri
+Barrey
+Palmira
+Reginold
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 18 was 0
+Filling day's customer array. There should be: 2
+Palmira
+Rona
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 19 was 0
+Filling day's customer array. There should be: 2
+Connie
+Barrey
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 20 was 0
+Filling day's customer array. There should be: 6
+Doyle
+Lavonna
+Sixta
+Rona
+Barrey
+Connie
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 21 was 0
+Filling day's customer array. There should be: 12
+Reginold
+Lavonna
+Van
+Matt
+Palmira
+Doyle
+Connie
+Marica
+Henri
+Rona
+Sixta
+Barrey
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 22 was 0
+Filling day's customer array. There should be: 1
+Marica
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 23 was 0
+Filling day's customer array. There should be: 9
+Matt
+Sixta
+Marica
+Rona
+Palmira
+Doyle
+Reginold
+Barrey
+Henri
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 24 was 0
+Filling day's customer array. There should be: 7
+Doyle
+Marica
+Barrey
+Lavonna
+Reginold
+Matt
+Connie
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 25 was 0
+Filling day's customer array. There should be: 7
+Doyle
+Sixta
+Matt
+Lavonna
+Barrey
+Marica
+Henri
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 26 was 0
+Filling day's customer array. There should be: 10
+Van
+Barrey
+Matt
+Reginold
+Lavonna
+Marica
+Doyle
+Palmira
+Rona
+Sixta
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 27 was 0
+Filling day's customer array. There should be: 12
+Reginold
+Palmira
+Lavonna
+Matt
+Barrey
+Henri
+Connie
+Sixta
+Rona
+Marica
+Van
+Doyle
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 28 was 0
+Filling day's customer array. There should be: 4
+Van
+Lavonna
+Connie
+Marica
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 29 was 0
+Filling day's customer array. There should be: 2
+Reginold
+Connie
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 30 was 0
+Filling day's customer array. There should be: 2
+Barrey
+Matt
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 31 was 0
+Filling day's customer array. There should be: 9
+Rona
+Van
+Connie
+Matt
+Lavonna
+Barrey
+Doyle
+Palmira
+Reginold
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 32 was 0
+Filling day's customer array. There should be: 9
+Barrey
+Connie
+Lavonna
+Rona
+Reginold
+Marica
+Doyle
+Van
+Sixta
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 33 was 0
+Filling day's customer array. There should be: 8
+Lavonna
+Van
+Doyle
+Rona
+Matt
+Connie
+Palmira
+Sixta
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 34 was 0
+Filling day's customer array. There should be: 7
+Lavonna
+Marica
+Connie
+Rona
+Doyle
+Matt
+Barrey
+There are 0 active rentals.
+Where: 
+The tools still in store are: 
+Paint Brush
+Paint Tray
+Paint Roller
+Paint Sprayer
+Paint Remover
+Concrete Mixer
+Concrete Spade
+Concrete Molder
+Concrete Buffer
+Concrete Leveler
+Yard Rake
+Yard LeafBlower
+Yard Lawnmower
+Yard Weedwacker
+Yard Trashbin
+Wood Powersaw
+Wood Sander
+Wood Router
+Wood Sawhorse
+Wood Drill
+Plumbing Wrench
+Plumbing Clamp
+Plumbing Gauge
+Plumbing Converter
+The amount of money made on day 35 was 0
+The total amount of money made over 35 days was 0

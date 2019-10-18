@@ -5,6 +5,7 @@ public abstract class Tool {
     public String toolName;
     public Integer price;
     public String rentedBy;
+    public Integer daysLeftOfRental;
     public String[] options;
     public Boolean rented = false;
 

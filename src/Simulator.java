@@ -1,3 +1,6 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -5,29 +8,21 @@ import java.util.stream.IntStream;
 
 import Customer.Customer;
 import Customer.InitCustomers;
+import Rental.Rental;
 import Tool.Tool;
 import Tool.ToolInventory;
-import Rental.*;
 
 public class Simulator {
 
     // Remove already selected customers during day customer array initializer
     public static int[] removeTheElement(int[] arr, int index) {
-        // If the array is empty
-        // or the index is not in array range
-        // return the original array
-        // If the array is empty
-        // or the index is not in array range
-        // return the original array
         if (arr == null || index < 0 || index >= arr.length) {
 
             return arr;
         }
-
-        // Create ArrayList from the array
         List<Integer> arrayList = IntStream.of(arr).boxed().collect(Collectors.toList());
 
-        // Remove the specified element
+        // Remove the indexed element
         arrayList.remove(index);
 
         // return the resultant array
@@ -47,7 +42,9 @@ public class Simulator {
         return k;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        PrintStream out = new PrintStream("./output.txt");
+        System.setOut(out);
 
         int days = 35;
 
@@ -62,11 +59,13 @@ public class Simulator {
 
         // TODO: Build out Rentals(and options) with Decorator pattern
 
-        // DAY SIMULATIONS
+        // SIMULATION
+        // ############################################################
         // CONSTANTS:
         int dailyProfit = 0;
         int totalProfit = 0;
-        for (int i = 0; i < days; i++) {
+        int completedRentals = 0;
+        for (int i = 1; i <= days; i++) {
 
             // PRINT INIT DAILY STATEMENTS
             // System.out.println("Today is day: ", i);
@@ -82,6 +81,7 @@ public class Simulator {
             randomizerArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
             Random rand = new Random();
             int numberOfCustomers = randomizerArray[rand.nextInt(randomizerArray.length)];
+
             // then in a for loop that loops counter number of times concatenate
             // randomly selected customers from customerarr
             // Set the daily customer array size
@@ -104,26 +104,54 @@ public class Simulator {
             // CHECK IF THERE IS INVENTORY FOR DAY'S CUSTOMER[i]
             for (int j = 0; j <= numberOfCustomers; j++) {
                 if (Rental.storeBouncer(toolArr, customerArr[j])) {
-                    // CREATE RENTAL
-                    // Rental.rentedTools()
+                    // CREATE RENTALS FOR CUSTOMER
+                    Tool[][] customerCart;
+                    customerCart = Rental.rentTools(toolArr, customerArr[j]);
                 }
             }
-            // else let for loop move past customer
+            // ELSE let for loop move past the current customer let someone else try
 
-            // PRINT RENTED TOOLS AND THE CUSTOMER RENTING
-            // Print the tools with rented status = false with the customer name
-            // Print count of tools rented status = false
+            // PRINT ALL RENTED TOOLS AND THE CUSTOMER RENTING
+            // DEPRECATE THE DAYS LEFT OF TOOLS RENTAL WHILE LOOPING THROUGH.
+            int activeRentals = 0;
+            for (Tool t : toolArr) {
+                if (t.rented) {
+                    activeRentals++;
+                    t.daysLeftOfRental--;
+                }
+            }
+            System.out.println("There are " + activeRentals + " active rentals.\n" + "Where: ");
+            String[] activeRenter = new String[activeRentals];
+            for (int r = 0; r < toolArr.length; r++) {
+                if (toolArr[r].rented) {
+                    activeRenter[r] = (toolArr[r].toolName + " is being rented by " + toolArr[r].rentedBy);
+                }
+            }
+            for (String r : activeRenter) {
+                System.out.println(r);
+            }
+
+            // Print Tools left in the store
+            System.out.println("The tools still in store are: ");
+            for (Tool t : toolArr) {
+                if (!t.rented) {
+                    System.out.println(t.toolName);
+                }
+            }
 
             // PRINT DAY'S PROFIT
-            // System.out.println(dailyProfit);
+            System.out.println("The amount of money made on day " + i + " was " + dailyProfit);
+
+            // DEPRECATE THE DAYS LEFT OF RENTAL IN THE RENTALS ARRAY
         }
+
+        // PRINT TOTAL PROFITED
+        System.out.println("The total amount of money made over 35 days was " + totalProfit);
+
         // rentals should store the tool, options bought, who it was rented by, for how
         // many days, if it was completed
-        // probably an array of arrays
 
-        // For Loop over day array:
-        // 0. Store bouncer who will determine if there is enough inventory for the
-        // customer types coming in
+        // TODO:
         // 1. List completed rentals and options, by which customer, and what options
         // 2. List tools in inventory with rented boolean = false
         // 3. Sum of profit that day made calculated by rental decorator

@@ -27,8 +27,8 @@ public abstract class Rental {
     }
 
     // This will return the array of tools rented by the customer
-    public Tool[] rentTools(Tool[] toolInventory, Customer customer) {
-        Tool[] rentedArr;
+    public static Tool[][] rentTools(Tool[] toolInventory, Customer customer) {
+        Tool[][] rentedArr;
 
         return rentedArr;
     }
