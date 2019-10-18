@@ -12,5 +12,6 @@ public class YardworkTool extends Tool {
         // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building yardwork tool");
         this.price = 10;
+        this.totalPrice = 10;
     }
 }

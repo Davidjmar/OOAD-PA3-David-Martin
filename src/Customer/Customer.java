@@ -2,6 +2,8 @@ package Customer;
 
 public abstract class Customer {
     public String customerName;
+    public Integer toolsRenting;
+    public Integer rentingPeriod;
     public Integer maxToolsRentable;
     public Integer minToolsRentable;
     public Integer maxRentalPeriod;

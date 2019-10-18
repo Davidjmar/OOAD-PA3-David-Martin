@@ -12,5 +12,6 @@ public class PaintingTool extends Tool {
         // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building painting tool");
         this.price = 20;
+        this.totalPrice = 20;
     }
 }

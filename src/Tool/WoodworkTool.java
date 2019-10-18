@@ -12,5 +12,6 @@ public class WoodworkTool extends Tool {
         // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building woodwork tool");
         this.price = 60;
+        this.totalPrice = 60;
     }
 }

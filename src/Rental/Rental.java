@@ -13,6 +13,8 @@ import Tool.Tool;
 
 public abstract class Rental {
 
+    // TODO: LAST! Every once in a blue moon the bouncer let's someone sneak by with
+    // more thatn they can rent
     public static Boolean storeBouncer(Tool[] toolInventory, Customer customer) {
         int count = 0;
         for (Tool i : toolInventory) {
@@ -20,11 +22,35 @@ public abstract class Rental {
                 count++;
             }
         }
-        if (count >= customer.maxToolsRentable) {
+        // let em' go nuts
+        if (count > customer.maxToolsRentable) {
+            customer.toolsRenting = randomValueInRange(customer.maxToolsRentable, customer.minToolsRentable);
+            customer.rentingPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
+            return true;
+        }
+        // They can only rent the minimal amount
+        else if (count == customer.minToolsRentable) {
+            // determine the number of tools customer is renting and period customer is
+            // renting for (cleared for max tools by bouncer)
+            customer.toolsRenting = customer.minToolsRentable;
+            customer.rentingPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
+            return true;
+        } else if (count > customer.minToolsRentable && count < customer.maxToolsRentable) {
+            // If the remaining inventory is within their range of rentaable items
+            customer.toolsRenting = randomValueInRange(count, customer.minToolsRentable);
+            customer.rentingPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
             return true;
         } else {
             return false;
         }
+    }
+
+    public static String[] combine(String[] a, String[] b) {
+        int length = a.length + b.length;
+        String[] result = new String[length];
+        System.arraycopy(a, 0, result, 0, a.length);
+        System.arraycopy(b, 0, result, a.length, b.length);
+        return result;
     }
 
     public static Integer randomValueInRange(Integer max, Integer min) {
@@ -35,27 +61,32 @@ public abstract class Rental {
 
     // This will return the array of tools rented by the customer
     public static Tool[] rentTools(Tool[] toolInventory, Customer customer) {
-        Tool[] rentedArr;
         // determine the number of tools customer is renting and period customer is
         // renting for (cleared for max tools by bouncer)
-        int toolsRenting = randomValueInRange(customer.maxToolsRentable, customer.minToolsRentable);
-        int rentalPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
 
         // ** Pick array of random unrented tools and add to rented array
         // Initialize rented array size
-        rentedArr = new Tool[toolsRenting];
-        for (Tool rented : rentedArr) {
-            // TODO: randomize the possibleTool
-            for (Tool possibleTool : toolInventory) {
-                if (!possibleTool.rented) {
-                    rented = possibleTool;
-                    // To be thorough:
-                    possibleTool.daysLeftOfRental = rentalPeriod;
-                    possibleTool.rentedBy = customer;
-                    possibleTool.rented = true;
-                    rented.daysLeftOfRental = rentalPeriod;
-                    rented.rentedBy = customer;
-                    rented.rented = true;
+        // TODO: REMOVE BEFORE FLIGHT
+        // System.out.println("Tools renting = " + customer.toolsRenting);
+        Tool[] rentedArr;
+        rentedArr = new Tool[customer.toolsRenting];
+        for (int rented = 0; rented < rentedArr.length; rented++) {
+
+            // Indexing tool inventory for randomization compatability
+            while (rentedArr[rented] == null) {
+
+                int randomIndex = randomValueInRange(toolInventory.length, 0);
+                if (toolInventory[randomIndex].rented == false) {
+                    rentedArr[rented] = toolInventory[randomIndex];
+                    toolInventory[randomIndex].daysLeftOfRental = customer.rentingPeriod;
+                    toolInventory[randomIndex].rentedBy = customer;
+                    toolInventory[randomIndex].rented = true;
+                    rentedArr[rented].daysLeftOfRental = customer.rentingPeriod;
+                    rentedArr[rented].rentedBy = customer;
+                    rentedArr[rented].rented = true;
+                    // TODO:
+                    // Call the options handler HERE
+
                     // set the tools properties to reflect rental
                 }
             }
@@ -63,10 +94,14 @@ public abstract class Rental {
         return rentedArr;
     }
 
-    // This will add 0-6 options to the rental
+    // TODO: Write the handler that will pick a number from 0-6 and use switches to
+    // randomize the package options. The handler will then set the options for each
+    // item in the Tool[] it is passed.
     // we may want to seperate this into a different package for the decorator class
-    public abstract String options();
+    // public abstract void setOptions(Tool tool);
+    // // Don't set tools.options yet, leave it null until otherwise
 
-    // This will find the total cost of the tools and options
-    public abstract Integer getCost();
+    // // This will return the individual cost of the item and also add it to the
+    // // tool's total cost property
+    // public abstract Integer getCost(Tool tool);
 }

@@ -5,10 +5,12 @@ import Customer.*;
 public abstract class Tool {
     // Name, Catergory, Price, and Rental Status
     public String toolName;
+    public String[] options;
     public Integer price;
     public Customer rentedBy;
     public Integer daysLeftOfRental;
     public Boolean rented = false;
+    public Integer totalPrice;
 
     public Tool(ToolType category, String toolName) {
         this.category = category;

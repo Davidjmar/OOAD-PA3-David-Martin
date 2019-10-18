@@ -12,5 +12,6 @@ public class ConcreteTool extends Tool {
         // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building concrete tool");
         this.price = 50;
+        this.totalPrice = 50;
     }
 }

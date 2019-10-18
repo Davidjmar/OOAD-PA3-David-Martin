@@ -12,5 +12,6 @@ public class PlumbingTool extends Tool {
         // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building plumbing tool");
         this.price = 35;
+        this.totalPrice = 35;
     }
 }
