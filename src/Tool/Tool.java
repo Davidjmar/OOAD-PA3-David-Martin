@@ -1,7 +1,5 @@
 package Tool;
 
-// TODO: ToolInventory
-
 public abstract class Tool {
     // Name, Catergory, Price, and Rental Status
     public String toolName;
