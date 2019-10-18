@@ -1,11 +1,52 @@
+import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 import Customer.Customer;
 import Customer.InitCustomers;
-import Rental.Rental;
 import Tool.Tool;
 import Tool.ToolInventory;
+import Rental.*;
 
 public class Simulator {
+
+    // Remove already selected customers during day customer array initializer
+    public static int[] removeTheElement(int[] arr, int index) {
+        // If the array is empty
+        // or the index is not in array range
+        // return the original array
+        // If the array is empty
+        // or the index is not in array range
+        // return the original array
+        if (arr == null || index < 0 || index >= arr.length) {
+
+            return arr;
+        }
+
+        // Create ArrayList from the array
+        List<Integer> arrayList = IntStream.of(arr).boxed().collect(Collectors.toList());
+
+        // Remove the specified element
+        arrayList.remove(index);
+
+        // return the resultant array
+        return arrayList.stream().mapToInt(Integer::intValue).toArray();
+    }
+
+    public static int getArrayIndex(int[] arr, int value) {
+
+        int k = 0;
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] == value) {
+                k = i;
+                break;
+            }
+        }
+        return k;
+    }
+
     public static void main(String[] args) {
 
         int days = 35;
@@ -28,7 +69,6 @@ public class Simulator {
         for (int i = 0; i < days; i++) {
 
             // PRINT INIT DAILY STATEMENTS
-            // List completed rentals and profits before clearing daily profits array
             // System.out.println("Today is day: ", i);
             // System.out.println(count and list of all completed rentals including which
             // tools and options were rented by which customer, for how many days, and total
@@ -46,17 +86,22 @@ public class Simulator {
             // randomly selected customers from customerarr
             // Set the daily customer array size
             dayCustomers = new Customer[numberOfCustomers];
+
             // Fill the day's customer array:
+            System.out.println("Filling day's customer array. There should be: " + numberOfCustomers);
+            int[] customerIndex;
+            customerIndex = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
             for (int c = 0; c < numberOfCustomers; c++) {
-                int[] customerIndex;
-                customerIndex = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
                 int pickedCustomer = customerIndex[rand.nextInt(customerIndex.length)];
                 dayCustomers[c] = customerArr[pickedCustomer];
+                // delete element from customer index
+                customerIndex = removeTheElement(customerIndex, getArrayIndex(customerIndex, pickedCustomer));
+                // PRINT --> Test for day's customer array building correctly
+                System.out.println(dayCustomers[c].customerName);
             }
             // DAY'S CUSTOMER ARRAY INITIALIZED
 
-            // CHECK IF THERE IS INVENTORY FOR DAY'S CUTOMER[i]
-            // Check the inventory allows for the customer to make a rental
+            // CHECK IF THERE IS INVENTORY FOR DAY'S CUSTOMER[i]
             for (int j = 0; j <= numberOfCustomers; j++) {
                 if (Rental.storeBouncer(toolArr, customerArr[j])) {
                     // CREATE RENTAL

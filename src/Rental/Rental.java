@@ -5,9 +5,8 @@ import Customer.CustomerType;
 import Tool.Tool;
 
 // Rentals will build a rental by being passed a customer
-// Then with the decorator pattern it will choose the number of tools a customer is 
-// renting and add options to the rental record 
-// the rental record to a running array of open rentals
+// Then with the decorator pattern it will add options to the tool record
+// It will then add the total of the tools to the total of the options
 // before each day the POS will run through the rentals array and complete any
 // returns
 
