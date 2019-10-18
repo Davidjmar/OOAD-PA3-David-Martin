@@ -1,12 +1,13 @@
 package Tool;
 
+import Customer.*;
+
 public abstract class Tool {
     // Name, Catergory, Price, and Rental Status
     public String toolName;
     public Integer price;
-    public String rentedBy;
+    public Customer rentedBy;
     public Integer daysLeftOfRental;
-    public String[] options;
     public Boolean rented = false;
 
     public Tool(ToolType category, String toolName) {

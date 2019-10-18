@@ -9,6 +9,7 @@ public class ConcreteTool extends Tool {
 
     @Override
     protected void construct() {
+        // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building concrete tool");
         this.price = 50;
     }

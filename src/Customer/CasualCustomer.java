@@ -9,6 +9,7 @@ public class CasualCustomer extends Customer {
 
     @Override
     protected void construct() {
+        // TODO: REMOVE BEFORE FLIGHT
         System.out.println("Building casual customer");
         // add accessories
         this.minToolsRentable = 1;

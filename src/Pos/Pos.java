@@ -1,91 +1,94 @@
 package Pos;
 
-public interface Subject {
+// TODO: BUILD OUT OBSERVER PATTERN
 
-    // methods to register and unregister observers
-    public void register(Observer obj);
+// public interface Subject {
 
-    public void unregister(Observer obj);
+// // methods to register and unregister observers
+// public void register(Observer obj);
 
-    // method to notify observers of change
-    public void notifyObservers();
+// public void unregister(Observer obj);
 
-    // method to get updates from subject
-    public Object getUpdate(Observer obj);
-}
+// // method to notify observers of change
+// public void notifyObservers();
 
-// The Point of sale will function as an observer to the events (i.e.
-// rentals/returns, customers, and inventory status)
+// // method to get updates from subject
+// public Object getUpdate(Observer obj);
+// }
 
-// THIS IS GOING TO BE THE Pos
-public interface Observer {
+// // The Point of sale will function as an observer to the events (i.e.
+// // rentals/returns, customers, and inventory status)
 
-    // method to update the observer, used by subject
-    public void update();
+// // THIS IS GOING TO BE THE Pos
+// public interface Observer {
 
-    // attach with subject to observe
-    public void setSubject(Subject sub);
-}
+// // method to update the observer, used by subject
+// public void update();
 
-public class Day implements Subject {
+// // attach with subject to observe
+// public void setSubject(Subject sub);
+// }
 
-    private String dayNumber;
-    private List<Observer> observers;
-    private boolean changed;
-    private final Object MUTEX = new Object();
+// public class Day implements Subject {
 
-    public Day() {
-        this.observers = new ArrayList<>();
-    }
+// private String dayNumber;
+// private List<Observer> observers;
+// private boolean changed;
+// private final Object MUTEX = new Object();
 
-    @Override
-    public void register(Observer obj) {
-        if (obj == null)
-            throw new NullPointerException("Null Observer");
-        synchronized (MUTEX) {
-            if (!observers.contains(obj))
-                observers.add(obj);
-        }
-    }
+// public Day() {
+// this.observers = new ArrayList<>();
+// }
 
-    @Override
-    public void unregister(Observer obj) {
-        synchronized (MUTEX) {
-            observers.remove(obj);
-        }
-    }
+// @Override
+// public void register(Observer obj) {
+// if (obj == null)
+// throw new NullPointerException("Null Observer");
+// synchronized (MUTEX) {
+// if (!observers.contains(obj))
+// observers.add(obj);
+// }
+// }
 
-    @Override
-    public void notifyObservers() {
-        List<Observer> observersLocal = null;
-        // synchronization is used to make sure any observer registered after message is
-        // received is not notified
-        synchronized (MUTEX) {
-            if (!changed)
-                return;
-            observersLocal = new ArrayList<>(this.observers);
-            this.changed = false;
-        }
-        for (Observer obj : observersLocal) {
-            obj.update();
-        }
-    }
+// @Override
+// public void unregister(Observer obj) {
+// synchronized (MUTEX) {
+// observers.remove(obj);
+// }
+// }
 
-    @Override
-    public Object getUpdate(Observer obj) {
-        // return the rentals of the day here so call --> getRentals()
-        return this.message;
-    }
+// @Override
+// public void notifyObservers() {
+// List<Observer> observersLocal = null;
+// // synchronization is used to make sure any observer registered after message
+// is
+// // received is not notified
+// synchronized (MUTEX) {
+// if (!changed)
+// return;
+// observersLocal = new ArrayList<>(this.observers);
+// this.changed = false;
+// }
+// for (Observer obj : observersLocal) {
+// obj.update();
+// }
+// }
 
-    // method to post message to the Day
-    public void postMessage(String msg) {
-        System.out.println("Message Posted to Topic:" + msg);
-        this.message = msg;
-        this.changed = true;
-        notifyObservers();
-    }
+// @Override
+// public Object getUpdate(Observer obj) {
+// // return the rentals of the day here so call --> getRentals()
+// return this.message;
+// }
 
-}
+// // method to post message to the Day
+// public void postMessage(String msg) {
+// System.out.println("Message Posted to Topic:" + msg);
+// this.message = msg;
+// this.changed = true;
+// notifyObservers();
+// }
+
+// }
 
 // References https://www.journaldev.com/1739/observer-design-pattern-in-java
 // https://www.cs.colorado.edu/~kena/classes/6448/f07/lectures/20/20-ObserverDecorator.pdf

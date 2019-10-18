@@ -7,16 +7,19 @@ public class CustomerFactory {
 
         case BUSINESS:
             customer = new BusinessCustomer(customerName);
+            // TODO: REMOVE BEFORE FLIGHT
             System.out.println(customer.customerName);
             break;
 
         case CASUAL:
             customer = new CasualCustomer(customerName);
+            // TODO: REMOVE BEFORE FLIGHT
             System.out.println(customer.customerName);
             break;
 
         case REGULAR:
             customer = new RegularCustomer(customerName);
+            // TODO: REMOVE BEFORE FLIGHT
             System.out.println(customer.customerName);
             break;
 
@@ -28,6 +31,7 @@ public class CustomerFactory {
     }
 
     // THIS MAIN IS FOR DEBUGGING ONLY
+    // TODO: REMOVE BEFORE FLIGHT
     public static void main(String[] args) {
         System.out.println(CustomerFactory.buildCustomer(CustomerType.BUSINESS, "BARNIE"));
         System.out.println(CustomerFactory.buildCustomer(CustomerType.CASUAL, "CARRIE"));
