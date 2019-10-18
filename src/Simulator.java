@@ -1,3 +1,4 @@
+import java.util.Random;
 import Customer.Customer;
 import Customer.InitCustomers;
 import Rental.Rental;
@@ -7,16 +8,7 @@ import Tool.ToolInventory;
 public class Simulator {
     public static void main(String[] args) {
 
-        // Array of days:
-        // A for loop over this array will call the
-        // rental decorator pattern which will assign rentals
-        // to customers of that day, and set the rented status of tools
-        //
-        Integer[] day;
         int days = 35;
-        day = new Integer[days];
-
-        int totaledProfit = 0;
 
         Tool[] toolArr;
         toolArr = ToolInventory.buildArray();
@@ -25,35 +17,51 @@ public class Simulator {
         Customer[] customerArr;
         customerArr = InitCustomers.buildArray();
         // ARRAY OF CUSTOMERS INITIALIZED
-        // System.out.println(customerArr[6]);
-        // System.out.println(customerArr[0].maxToolsRentable);
+        // Use ex: System.out.println(customerArr[0].maxToolsRentable);
 
         // TODO: Build out Rentals(and options) with Decorator pattern
 
         // DAY SIMULATIONS
+        // CONSTANTS:
         int dailyProfit = 0;
-        int totalProfits = 0;
+        int totalProfit = 0;
         for (int i = 0; i < days; i++) {
 
             // PRINT INIT DAILY STATEMENTS
             // List completed rentals and profits before clearing daily profits array
             // System.out.println("Today is day: ", i);
             // System.out.println(count and list of all completed rentals including which
-            // tools and options were rented by which customer, for how many days, along
-            // with the total fee for that rental);
+            // tools and options were rented by which customer, for how many days, and total
+            // fee for that rental);
 
             // BUILD DAY'S CUSTOMER ARRAY
-            // randomly select some number of customers and randomize which customers
-            // create a random number from one to 12 and set a counter to that value
+            // Randomly select some number of customers and randomize which customers
+            // Create a random number from one to 12 and set a counter to that value
+            Customer[] dayCustomers;
+            int[] randomizerArray;
+            randomizerArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+            Random rand = new Random();
+            int numberOfCustomers = randomizerArray[rand.nextInt(randomizerArray.length)];
             // then in a for loop that loops counter number of times concatenate
             // randomly selected customers from customerarr
+            // Set the daily customer array size
+            dayCustomers = new Customer[numberOfCustomers];
+            // Fill the day's customer array:
+            for (int c = 0; c < numberOfCustomers; c++) {
+                int[] customerIndex;
+                customerIndex = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+                int pickedCustomer = customerIndex[rand.nextInt(customerIndex.length)];
+                dayCustomers[c] = customerArr[pickedCustomer];
+            }
+            // DAY'S CUSTOMER ARRAY INITIALIZED
 
             // CHECK IF THERE IS INVENTORY FOR DAY'S CUTOMER[i]
             // Check the inventory allows for the customer to make a rental
-            if (Rental.storeBouncer(toolArr, customerArr[i])) {
-                // CREATE RENTAL
-                // True = creat rental for customer
-                // Rental.rentedTools()
+            for (int j = 0; j <= numberOfCustomers; j++) {
+                if (Rental.storeBouncer(toolArr, customerArr[j])) {
+                    // CREATE RENTAL
+                    // Rental.rentedTools()
+                }
             }
             // else let for loop move past customer
 

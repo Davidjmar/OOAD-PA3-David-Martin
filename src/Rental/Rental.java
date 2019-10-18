@@ -28,12 +28,8 @@ public abstract class Rental {
     }
 
     // This will return the array of tools rented by the customer
-    public Tool[] rentedTools(Tool[] toolInventory, Customer customer) {
+    public Tool[] rentTools(Tool[] toolInventory, Customer customer) {
         Tool[] rentedArr;
-
-        if (storeBouncer(toolInventory, customer)) {
-
-        }
 
         return rentedArr;
     }
