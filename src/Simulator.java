@@ -40,7 +40,7 @@ public class Simulator {
         PrintStream out = new PrintStream("./output.txt");
         System.setOut(out);
 
-        int days = 1;
+        int days = 35;
 
         Tool[] toolArr;
         toolArr = ToolInventory.buildArray();
@@ -55,25 +55,45 @@ public class Simulator {
         // CONSTANTS:
         int dailyProfit = 0;
         int totalProfit = 0;
-        int completedRentals = 0;
-        Tool[][] openRentals;
-        Tool[][] currentDaysRentals;
+        int totalCompletedRentals = 0;
+        int totalRegularCompleted = 0;
+        int totalBusinessCompleted = 0;
+        int totalCasualCompleted = 0;
+        Tool[] allCompletedRentals;
         for (int i = 1; i <= days; i++) {
 
             System.out.println("Today is day: " + i);
 
+            Tool[] completedRental = new Tool[toolArr.length];
+            int rentalCompletedCount = 0;
+            for (Tool t : toolArr) {
+                if (t.rented == true && t.daysLeftOfRental == 0) {
+                    rentalCompletedCount++;
+                }
+            }
+
+            // Tool[] completedRental = Rental.complete(openRental);
+            totalCompletedRentals += rentalCompletedCount;
+
             // TODO:
-            // Create and array of arrays from open Rentals where days left == 0,
-            // completedrentals = length of array of arrays of completed rentals
-            System.out.println("There were " + completedRentals + " completed rentals this morning.");
+            System.out.println("There were " + rentalCompletedCount + " completed rentals this morning.");
+            // TODO: Add a constant days rented for property to the tool to print
             // System.out.println(list of all completed rentals including which
             // tools and options were rented by which customer, for how many days, and total
             // fee for that rental);
-
-            // Call a Rental function Completed that removes rented by, days left, options
+            System.out.println("The rentals completed were: ");
+            for (int l = 0; l < toolArr.length; l++) {
+                if (toolArr[l].rented == true && toolArr[l].daysLeftOfRental == 0) {
+                    System.out.println(toolArr[l].toolName + " rented by " + toolArr[l].rentedBy.customerName
+                            + " for X days and for a total cost: " + toolArr[l].totalPrice);
+                }
+            }
+            // Call a Rental function cleanCompleted that removes rented by, days left,
+            // options
             // and sets rented = false, and resets total price to tool.price --> arguments =
             // completed rentals array and it returns an array of rentals that have been
             // completed.
+            Rental.cleanCompleted(toolArr);
 
             // BUILD DAY'S CUSTOMER ARRAY
             // Randomly select some number of customers and randomize which customers
@@ -90,9 +110,6 @@ public class Simulator {
             dayCustomers = new Customer[numberOfCustomers];
 
             // INIT DAY'S POTENTIAL CUSTOMERS
-            // //TODO: REMOVE BEFORE FLIGHT
-            // System.out.println("Filling day's customer array. There should be: " +
-            // numberOfCustomers);
             int[] customerIndex;
             customerIndex = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
             for (int c = 0; c < numberOfCustomers; c++) {
@@ -110,28 +127,31 @@ public class Simulator {
                 // CHECK IF THERE IS INVENTORY FOR DAY'S CUSTOMER[i]
                 if (Rental.storeBouncer(toolArr, dayCustomers[j])) {
                     // CREATE RENTALS FOR CUSTOMER
-                    // TODO: BUILD OUT OPTIONS DECORATOR
                     Tool[] customerRented;
+                    // rentTools encapsulates options
                     customerRented = Rental.rentTools(toolArr, dayCustomers[j]);
+
                     // TODO: REMOVE BEFORE FLIGHT
+                    // THIS PRINTS WHO RENTED WHAT!
                     System.out.println(dayCustomers[j].customerName + " rented:");
                     for (int tester = 0; tester < customerRented.length; tester++) {
-                        System.out.println(customerRented[tester].toolName);
+                        System.out.println(customerRented[tester].toolName + " for "
+                                + customerRented[tester].daysLeftOfRental + " days.");
                     }
+
                 }
                 // ELSE let for loop move past the current customer. Let someone else try.
             }
             // *********************************************************
 
             // PRINT ALL RENTED TOOLS AND THE CUSTOMER RENTING
-            // DEPRECATE THE DAYS LEFT OF TOOLS RENTAL WHILE LOOPING THROUGH.
             int activeRentals = 0;
             for (Tool t : toolArr) {
                 if (t.rented == true) {
                     activeRentals++;
-                    t.daysLeftOfRental--;
                 }
             }
+            System.out.println("**********************OPEN RENTALS***********");
             System.out.println("There are " + activeRentals + " active rentals.\n" + "Where: ");
             String[] activeRenter = new String[activeRentals];
             int seperateIndexer = 0;
@@ -142,9 +162,11 @@ public class Simulator {
                     seperateIndexer++;
                 }
             }
+            // Active rented is initialized and filled in above
             for (String r : activeRenter) {
                 System.out.println(r);
             }
+            System.out.println("*********************************************");
 
             // Print Tools left in the store
             System.out.println("The tools still in store are: ");
@@ -157,16 +179,20 @@ public class Simulator {
             // PRINT DAY'S PROFIT
             System.out.println("The amount of money made on day " + i + " was " + dailyProfit);
             // DEPRECATE THE DAYS LEFT OF RENTAL IN THE RENTALS ARRAY
+
+            for (Tool tool : toolArr) {
+                if (tool.rented == true) {
+                    tool.daysLeftOfRental = tool.daysLeftOfRental - 1;
+                }
+            }
+            // This should create an array of the open rentals at the end of each day
         }
 
         // TODO:
         // 1. Total count of completed rentals by each customer type
         // 2. Total count of completed rentals (could just sum previous counts)
+        System.out.println("There were " + totalCompletedRentals + " completed rentals over 35 days");
         // PRINT TOTAL PROFITED
         System.out.println("The total amount of money made over 35 days was " + totalProfit);
-
-        // NOTE:
-        // rentals should store the tool, options bought, who it was rented by, for how
-        // many days, if it was completed
     }
 }

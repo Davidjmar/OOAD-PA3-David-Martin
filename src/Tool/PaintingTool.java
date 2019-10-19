@@ -9,8 +9,6 @@ public class PaintingTool extends Tool {
 
     @Override
     protected void construct() {
-        // TODO: REMOVE BEFORE FLIGHT
-        System.out.println("Building painting tool");
         this.price = 20;
         this.totalPrice = 20;
     }

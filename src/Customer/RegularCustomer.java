@@ -9,8 +9,6 @@ public class RegularCustomer extends Customer {
 
     @Override
     protected void construct() {
-        // TODO: REMOVE BEFORE FLIGHT
-        System.out.println("Building regular customer");
         this.minToolsRentable = 1;
         this.maxToolsRentable = 3;
         this.minRentalPeriod = 3;

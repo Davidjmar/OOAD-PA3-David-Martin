@@ -1,138 +1,1598 @@
-Building painting tool
-Paint Brush
-Building painting tool
-Paint Tray
-Building painting tool
-Paint Roller
-Building painting tool
-Paint Sprayer
-Building painting tool
-Paint Remover
-Building concrete tool
-Concrete Mixer
-Building concrete tool
-Concrete Spade
-Building concrete tool
-Concrete Molder
-Building concrete tool
-Concrete Buffer
-Building concrete tool
-Concrete Leveler
-Building yardwork tool
-Yard Rake
-Building yardwork tool
-Yard LeafBlower
-Building yardwork tool
-Yard Lawnmower
-Building yardwork tool
-Yard Weedwacker
-Building yardwork tool
-Yard Trashbin
-Building woodwork tool
-Wood Powersaw
-Building woodwork tool
-Wood Sander
-Building woodwork tool
-Wood Router
-Building woodwork tool
-Wood Sawhorse
-Building woodwork tool
-Wood Drill
-Building plumbing tool
-Plumbing Wrench
-Building plumbing tool
-Plumbing Clamp
-Building plumbing tool
-Plumbing Gauge
-Building plumbing tool
-Plumbing Converter
-Building regular customer
-Reginold
-Building business customer
-Barrey
-Building casual customer
-Connie
-Building casual customer
-Sixta
-Building regular customer
-Doyle
-Building regular customer
-Van
-Building business customer
-Matt
-Building casual customer
-Lavonna
-Building casual customer
-Rona
-Building business customer
-Henri
-Building casual customer
-Marica
-Building casual customer
-Palmira
 Today is day: 1
 There were 0 completed rentals this morning.
-Options prior to call: null
-Total price prior to call: 150
-random quantity was:5
-In accessory options [Ljava.lang.String;@2cfb4a64
-In accessory getCost 160
-In Cord options [Ljava.lang.String;@4b6995df
-In Cord getCost 15
-In accessory options [Ljava.lang.String;@2fc14f68
-In accessory getCost 15
-In accessory options [Ljava.lang.String;@591f989e
-In accessory getCost 20
-In protection options [Ljava.lang.String;@61443d8f
-In Cord getCost 20
-In accessory options [Ljava.lang.String;@445b84c0
-In accessory getCost 20
-Options after call Accessories Package
-Total price after getting options 10
-Options prior to call: null
-Total price prior to call: 150
-random quantity was:0
-In Cord options [Ljava.lang.String;@61a52fbd
-In Cord getCost 155
-Options after call Extension Cord
-Total price after getting options 5
-Options prior to call: null
-Total price prior to call: 30
-random quantity was:0
-In Cord options [Ljava.lang.String;@233c0b17
-In Cord getCost 35
-Options after call Extension Cord
-Total price after getting options 5
-Doyle rented:
-Concrete Buffer
-Concrete Molder
-Yard Rake
-There are 3 active rentals.
+The rentals completed were: 
+Rona rented:
+Concrete Spade for 7 days.
+Plumbing Gauge for 7 days.
+Marica rented:
+Plumbing Wrench for 3 days.
+Paint Roller for 3 days.
+Lavonna rented:
+Concrete Buffer for 2 days.
+Palmira rented:
+Paint Remover for 8 days.
+Plumbing Converter for 8 days.
+Yard Lawnmower for 8 days.
+Concrete Molder for 8 days.
+Wood Sawhorse for 8 days.
+Reginold rented:
+Wood Router for 4 days.
+Wood Drill for 4 days.
+Matt rented:
+Concrete Mixer for 2 days.
+Connie rented:
+Wood Powersaw for 1 days.
+**********************OPEN RENTALS***********
+There are 14 active rentals.
 Where: 
-Concrete Molder is being rented by Doyle
-Concrete Buffer is being rented by Doyle
-Yard Rake is being rented by Doyle
+Paint Roller is being rented by Marica
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Matt
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Lavonna
+Yard Lawnmower is being rented by Palmira
+Wood Powersaw is being rented by Connie
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
 The tools still in store are: 
 Paint Brush
 Paint Tray
-Paint Roller
 Paint Sprayer
-Paint Remover
-Concrete Mixer
-Concrete Spade
 Concrete Leveler
+Yard Rake
 Yard LeafBlower
-Yard Lawnmower
 Yard Weedwacker
 Yard Trashbin
-Wood Powersaw
 Wood Sander
-Wood Router
+Plumbing Clamp
+The amount of money made on day 1 was 0
+Today is day: 2
+LINE 70: Wood Powersaw
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Wood Powersaw rented by Connie for X days and for a total cost: 10
+Palmira rented:
+Wood Sander for 11 days.
+Wood Powersaw for 11 days.
+Paint Tray for 11 days.
+Paint Brush for 11 days.
+Lavonna rented:
+Plumbing Clamp for 2 days.
+Yard LeafBlower for 2 days.
+Barrey rented:
+Yard Rake for 8 days.
+Paint Sprayer for 8 days.
+Concrete Leveler for 8 days.
+Yard Trashbin for 8 days.
+**********************OPEN RENTALS***********
+There are 23 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Matt
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Lavonna
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Lavonna
+Yard Lawnmower is being rented by Palmira
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Lavonna
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+Yard Weedwacker
+The amount of money made on day 2 was 0
+Today is day: 3
+LINE 70: Concrete Mixer
+LINE 70: Concrete Buffer
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Concrete Mixer rented by Matt for X days and for a total cost: 10
+Concrete Buffer rented by Lavonna for X days and for a total cost: 10
+Matt rented:
+Concrete Mixer for 1 days.
+Concrete Buffer for 1 days.
+Lavonna rented:
+Yard Weedwacker for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Matt
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Matt
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Lavonna
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Lavonna
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Lavonna
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 3 was 0
+Today is day: 4
+LINE 70: Paint Roller
+LINE 70: Concrete Mixer
+LINE 70: Concrete Buffer
+LINE 70: Yard LeafBlower
+LINE 70: Yard Weedwacker
+LINE 70: Plumbing Wrench
+LINE 70: Plumbing Clamp
+There were 7 completed rentals this morning.
+The rentals completed were: 
+Paint Roller rented by Marica for X days and for a total cost: 60
+Concrete Mixer rented by Matt for X days and for a total cost: 5
+Concrete Buffer rented by Matt for X days and for a total cost: 10
+Yard LeafBlower rented by Lavonna for X days and for a total cost: 10
+Yard Weedwacker rented by Lavonna for X days and for a total cost: 10
+Plumbing Wrench rented by Marica for X days and for a total cost: 10
+Plumbing Clamp rented by Lavonna for X days and for a total cost: 5
+Sixta rented:
+Plumbing Clamp for 7 days.
+Yard Weedwacker for 7 days.
+Concrete Mixer for 7 days.
+Concrete Buffer for 7 days.
+Yard LeafBlower for 7 days.
+Marica rented:
+Plumbing Wrench for 5 days.
+Paint Roller for 5 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 4 was 0
+Today is day: 5
+LINE 70: Wood Router
+LINE 70: Wood Drill
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Wood Router rented by Reginold for X days and for a total cost: 10
+Wood Drill rented by Reginold for X days and for a total cost: 10
+Reginold rented:
+Wood Drill for 5 days.
+Wood Router for 5 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 5 was 0
+Today is day: 6
+There were 0 completed rentals this morning.
+The rentals completed were: 
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 6 was 0
+Today is day: 7
+There were 0 completed rentals this morning.
+The rentals completed were: 
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Rona
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 7 was 0
+Today is day: 8
+LINE 70: Concrete Spade
+LINE 70: Plumbing Gauge
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Concrete Spade rented by Rona for X days and for a total cost: 10
+Plumbing Gauge rented by Rona for X days and for a total cost: 5
+Marica rented:
+Concrete Spade for 4 days.
+Plumbing Gauge for 4 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Marica
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Palmira
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Marica
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Marica
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Marica
+Plumbing Converter is being rented by Palmira
+*********************************************
+The tools still in store are: 
+The amount of money made on day 8 was 0
+Today is day: 9
+LINE 70: Paint Roller
+LINE 70: Paint Remover
+LINE 70: Concrete Molder
+LINE 70: Yard Lawnmower
+LINE 70: Wood Sawhorse
+LINE 70: Plumbing Wrench
+LINE 70: Plumbing Converter
+There were 7 completed rentals this morning.
+The rentals completed were: 
+Paint Roller rented by Marica for X days and for a total cost: 10
+Paint Remover rented by Palmira for X days and for a total cost: 10
+Concrete Molder rented by Palmira for X days and for a total cost: 10
+Yard Lawnmower rented by Palmira for X days and for a total cost: 10
+Wood Sawhorse rented by Palmira for X days and for a total cost: 10
+Plumbing Wrench rented by Marica for X days and for a total cost: 10
+Plumbing Converter rented by Palmira for X days and for a total cost: 280
+Lavonna rented:
+Plumbing Wrench for 2 days.
+**********************OPEN RENTALS***********
+There are 18 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Sprayer is being rented by Barrey
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Marica
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Sixta
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Barrey
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Reginold
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Lavonna
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Marica
+*********************************************
+The tools still in store are: 
+Paint Roller
+Paint Remover
+Concrete Molder
+Yard Lawnmower
 Wood Sawhorse
+Plumbing Converter
+The amount of money made on day 9 was 0
+Today is day: 10
+LINE 70: Paint Sprayer
+LINE 70: Concrete Leveler
+LINE 70: Yard Rake
+LINE 70: Yard Trashbin
+LINE 70: Wood Router
+LINE 70: Wood Drill
+There were 6 completed rentals this morning.
+The rentals completed were: 
+Paint Sprayer rented by Barrey for X days and for a total cost: 10
+Concrete Leveler rented by Barrey for X days and for a total cost: 5
+Yard Rake rented by Barrey for X days and for a total cost: 10
+Yard Trashbin rented by Barrey for X days and for a total cost: 10
+Wood Router rented by Reginold for X days and for a total cost: 5
+Wood Drill rented by Reginold for X days and for a total cost: 5
+Reginold rented:
+Paint Remover for 3 days.
+Palmira rented:
+Yard Trashbin for 10 days.
+Yard Lawnmower for 10 days.
+Wood Drill for 10 days.
+Wood Router for 10 days.
+Doyle rented:
+Concrete Molder for 9 days.
+Paint Roller for 9 days.
+Concrete Leveler for 9 days.
+Wood Sawhorse for 9 days.
+Lavonna rented:
+Paint Sprayer for 1 days.
+Yard Rake for 1 days.
+Matt rented:
+Plumbing Converter for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Lavonna
+Paint Remover is being rented by Reginold
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Marica
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Sixta
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Lavonna
+Yard LeafBlower is being rented by Sixta
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Sixta
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Lavonna
+Plumbing Clamp is being rented by Sixta
+Plumbing Gauge is being rented by Marica
+Plumbing Converter is being rented by Matt
+*********************************************
+The tools still in store are: 
+The amount of money made on day 10 was 0
+Today is day: 11
+LINE 70: Paint Sprayer
+LINE 70: Concrete Mixer
+LINE 70: Concrete Buffer
+LINE 70: Yard Rake
+LINE 70: Yard LeafBlower
+LINE 70: Yard Weedwacker
+LINE 70: Plumbing Wrench
+LINE 70: Plumbing Clamp
+LINE 70: Plumbing Converter
+There were 9 completed rentals this morning.
+The rentals completed were: 
+Paint Sprayer rented by Lavonna for X days and for a total cost: 10
+Concrete Mixer rented by Sixta for X days and for a total cost: 10
+Concrete Buffer rented by Sixta for X days and for a total cost: 5
+Yard Rake rented by Lavonna for X days and for a total cost: 5
+Yard LeafBlower rented by Sixta for X days and for a total cost: 5
+Yard Weedwacker rented by Sixta for X days and for a total cost: 10
+Plumbing Wrench rented by Lavonna for X days and for a total cost: 5
+Plumbing Clamp rented by Sixta for X days and for a total cost: 10
+Plumbing Converter rented by Matt for X days and for a total cost: 5
+Connie rented:
+Concrete Buffer for 2 days.
+Henri rented:
+Paint Sprayer for 1 days.
+Barrey rented:
+Concrete Mixer for 13 days.
+Plumbing Wrench for 13 days.
+Yard Weedwacker for 13 days.
+Yard Rake for 13 days.
+Plumbing Clamp for 13 days.
+Reginold rented:
+Plumbing Converter for 4 days.
+Yard LeafBlower for 4 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Henri
+Paint Remover is being rented by Reginold
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Marica
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Connie
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Marica
+Plumbing Converter is being rented by Reginold
+*********************************************
+The tools still in store are: 
+The amount of money made on day 11 was 0
+Today is day: 12
+LINE 70: Paint Sprayer
+LINE 70: Concrete Spade
+LINE 70: Plumbing Gauge
+There were 3 completed rentals this morning.
+The rentals completed were: 
+Paint Sprayer rented by Henri for X days and for a total cost: 10
+Concrete Spade rented by Marica for X days and for a total cost: 5
+Plumbing Gauge rented by Marica for X days and for a total cost: 10
+Connie rented:
+Plumbing Gauge for 2 days.
+Rona rented:
+Paint Sprayer for 5 days.
+Concrete Spade for 5 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Palmira
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Rona
+Paint Remover is being rented by Reginold
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Connie
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Palmira
+Wood Sander is being rented by Palmira
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Connie
+Plumbing Converter is being rented by Reginold
+*********************************************
+The tools still in store are: 
+The amount of money made on day 12 was 0
+Today is day: 13
+LINE 70: Paint Brush
+LINE 70: Paint Tray
+LINE 70: Paint Remover
+LINE 70: Concrete Buffer
+LINE 70: Wood Powersaw
+LINE 70: Wood Sander
+There were 6 completed rentals this morning.
+The rentals completed were: 
+Paint Brush rented by Palmira for X days and for a total cost: 10
+Paint Tray rented by Palmira for X days and for a total cost: 220
+Paint Remover rented by Reginold for X days and for a total cost: 5
+Concrete Buffer rented by Connie for X days and for a total cost: 5
+Wood Powersaw rented by Palmira for X days and for a total cost: 5
+Wood Sander rented by Palmira for X days and for a total cost: 10
+Van rented:
+Paint Tray for 7 days.
+Concrete Buffer for 7 days.
+Paint Brush for 7 days.
+Paint Remover for 7 days.
+Rona rented:
+Wood Sander for 6 days.
+Wood Powersaw for 6 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Rona
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Connie
+Plumbing Converter is being rented by Reginold
+*********************************************
+The tools still in store are: 
+The amount of money made on day 13 was 0
+Today is day: 14
+LINE 70: Plumbing Gauge
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Plumbing Gauge rented by Connie for X days and for a total cost: 10
+Connie rented:
+Plumbing Gauge for 2 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Rona
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Connie
+Plumbing Converter is being rented by Reginold
+*********************************************
+The tools still in store are: 
+The amount of money made on day 14 was 0
+Today is day: 15
+LINE 70: Yard LeafBlower
+LINE 70: Plumbing Converter
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Yard LeafBlower rented by Reginold for X days and for a total cost: 5
+Plumbing Converter rented by Reginold for X days and for a total cost: 5
+**********************OPEN RENTALS***********
+There are 22 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Rona
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Connie
+*********************************************
+The tools still in store are: 
+Yard LeafBlower
+Plumbing Converter
+The amount of money made on day 15 was 0
+Today is day: 16
+LINE 70: Plumbing Gauge
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Plumbing Gauge rented by Connie for X days and for a total cost: 70
+Van rented:
+Plumbing Converter for 12 days.
+Plumbing Gauge for 12 days.
+Yard LeafBlower for 12 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Rona
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 16 was 0
+Today is day: 17
+LINE 70: Paint Sprayer
+LINE 70: Concrete Spade
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Paint Sprayer rented by Rona for X days and for a total cost: 5
+Concrete Spade rented by Rona for X days and for a total cost: 5
+Reginold rented:
+Concrete Spade for 5 days.
+**********************OPEN RENTALS***********
+There are 23 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Reginold
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+Paint Sprayer
+The amount of money made on day 17 was 0
+Today is day: 18
+There were 0 completed rentals this morning.
+The rentals completed were: 
+Matt rented:
+Paint Sprayer for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Doyle
+Paint Sprayer is being rented by Matt
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Reginold
+Concrete Molder is being rented by Doyle
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Doyle
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Rona
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Sawhorse is being rented by Doyle
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 18 was 0
+Today is day: 19
+LINE 70: Paint Roller
+LINE 70: Paint Sprayer
+LINE 70: Concrete Molder
+LINE 70: Concrete Leveler
+LINE 70: Wood Powersaw
+LINE 70: Wood Sander
+LINE 70: Wood Sawhorse
+There were 7 completed rentals this morning.
+The rentals completed were: 
+Paint Roller rented by Doyle for X days and for a total cost: 5
+Paint Sprayer rented by Matt for X days and for a total cost: 10
+Concrete Molder rented by Doyle for X days and for a total cost: 10
+Concrete Leveler rented by Doyle for X days and for a total cost: 450
+Wood Powersaw rented by Rona for X days and for a total cost: 10
+Wood Sander rented by Rona for X days and for a total cost: 10
+Wood Sawhorse rented by Doyle for X days and for a total cost: 5
+Barrey rented:
+Paint Sprayer for 10 days.
+Concrete Molder for 10 days.
+Concrete Leveler for 10 days.
+Wood Powersaw for 10 days.
+Paint Roller for 10 days.
+Rona rented:
+Wood Sander for 4 days.
+**********************OPEN RENTALS***********
+There are 23 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Reginold
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Van
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Palmira
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Palmira
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Rona
+Wood Router is being rented by Palmira
+Wood Drill is being rented by Palmira
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+Wood Sawhorse
+The amount of money made on day 19 was 0
+Today is day: 20
+LINE 70: Paint Brush
+LINE 70: Paint Tray
+LINE 70: Paint Remover
+LINE 70: Concrete Buffer
+LINE 70: Yard Lawnmower
+LINE 70: Yard Trashbin
+LINE 70: Wood Router
+LINE 70: Wood Drill
+There were 8 completed rentals this morning.
+The rentals completed were: 
+Paint Brush rented by Van for X days and for a total cost: 10
+Paint Tray rented by Van for X days and for a total cost: 10
+Paint Remover rented by Van for X days and for a total cost: 10
+Concrete Buffer rented by Van for X days and for a total cost: 10
+Yard Lawnmower rented by Palmira for X days and for a total cost: 10
+Yard Trashbin rented by Palmira for X days and for a total cost: 5
+Wood Router rented by Palmira for X days and for a total cost: 10
+Wood Drill rented by Palmira for X days and for a total cost: 5
+Rona rented:
+Concrete Buffer for 6 days.
+Wood Sawhorse for 6 days.
+Connie rented:
+Paint Brush for 1 days.
+Van rented:
+Paint Remover for 12 days.
+Yard Trashbin for 12 days.
+Paint Tray for 12 days.
+Yard Lawnmower for 12 days.
+**********************OPEN RENTALS***********
+There are 22 active rentals.
+Where: 
+Paint Brush is being rented by Connie
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Reginold
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Rona
+Wood Sawhorse is being rented by Rona
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+Wood Router
+Wood Drill
+The amount of money made on day 20 was 0
+Today is day: 21
+LINE 70: Paint Brush
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Paint Brush rented by Connie for X days and for a total cost: 10
+Van rented:
+Wood Drill for 7 days.
+Wood Router for 7 days.
+Paint Brush for 7 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Reginold
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Rona
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Rona
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 21 was 0
+Today is day: 22
+LINE 70: Concrete Spade
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Concrete Spade rented by Reginold for X days and for a total cost: 5
+Rona rented:
+Concrete Spade for 6 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Rona
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Rona
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 22 was 0
+Today is day: 23
+LINE 70: Wood Sander
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Wood Sander rented by Rona for X days and for a total cost: 10
+Henri rented:
+Wood Sander for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Barrey
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Barrey
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Barrey
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Henri
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Rona
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Barrey
+Plumbing Clamp is being rented by Barrey
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 23 was 0
+Today is day: 24
+LINE 70: Concrete Mixer
+LINE 70: Yard Rake
+LINE 70: Yard Weedwacker
+LINE 70: Wood Sander
+LINE 70: Plumbing Wrench
+LINE 70: Plumbing Clamp
+There were 6 completed rentals this morning.
+The rentals completed were: 
+Concrete Mixer rented by Barrey for X days and for a total cost: 10
+Yard Rake rented by Barrey for X days and for a total cost: 130
+Yard Weedwacker rented by Barrey for X days and for a total cost: 10
+Wood Sander rented by Henri for X days and for a total cost: 60
+Plumbing Wrench rented by Barrey for X days and for a total cost: 10
+Plumbing Clamp rented by Barrey for X days and for a total cost: 5
+Matt rented:
+Plumbing Clamp for 1 days.
+Plumbing Wrench for 1 days.
+Lavonna rented:
+Yard Weedwacker for 1 days.
+Yard Rake for 1 days.
+Marica rented:
+Concrete Mixer for 4 days.
+Reginold rented:
+Wood Sander for 7 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Marica
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Lavonna
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Lavonna
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Rona
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Matt
+Plumbing Clamp is being rented by Matt
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 24 was 0
+Today is day: 25
+LINE 70: Yard Rake
+LINE 70: Yard Weedwacker
+LINE 70: Plumbing Wrench
+LINE 70: Plumbing Clamp
+There were 4 completed rentals this morning.
+The rentals completed were: 
+Yard Rake rented by Lavonna for X days and for a total cost: 10
+Yard Weedwacker rented by Lavonna for X days and for a total cost: 10
+Plumbing Wrench rented by Matt for X days and for a total cost: 5
+Plumbing Clamp rented by Matt for X days and for a total cost: 35
+Lavonna rented:
+Plumbing Wrench for 2 days.
+Yard Weedwacker for 2 days.
+Rona rented:
+Plumbing Clamp for 3 days.
+Henri rented:
+Yard Rake for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Marica
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Rona
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Henri
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Lavonna
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Rona
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Lavonna
+Plumbing Clamp is being rented by Rona
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 25 was 0
+Today is day: 26
+LINE 70: Concrete Buffer
+LINE 70: Yard Rake
+LINE 70: Wood Sawhorse
+There were 3 completed rentals this morning.
+The rentals completed were: 
+Concrete Buffer rented by Rona for X days and for a total cost: 10
+Yard Rake rented by Henri for X days and for a total cost: 10
+Wood Sawhorse rented by Rona for X days and for a total cost: 360
+Palmira rented:
+Wood Sawhorse for 13 days.
+Concrete Buffer for 13 days.
+Yard Rake for 13 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Marica
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Lavonna
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Van
+Plumbing Wrench is being rented by Lavonna
+Plumbing Clamp is being rented by Rona
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 26 was 0
+Today is day: 27
+LINE 70: Yard Weedwacker
+LINE 70: Plumbing Wrench
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Yard Weedwacker rented by Lavonna for X days and for a total cost: 10
+Plumbing Wrench rented by Lavonna for X days and for a total cost: 10
+**********************OPEN RENTALS***********
+There are 22 active rentals.
+Where: 
+Paint Brush is being rented by Van
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Marica
+Concrete Spade is being rented by Rona
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Van
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Van
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Van
+Plumbing Clamp is being rented by Rona
+Plumbing Gauge is being rented by Van
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+Yard Weedwacker
+Plumbing Wrench
+The amount of money made on day 27 was 0
+Today is day: 28
+LINE 70: Paint Brush
+LINE 70: Concrete Mixer
+LINE 70: Concrete Spade
+LINE 70: Yard LeafBlower
+LINE 70: Wood Router
+LINE 70: Wood Drill
+LINE 70: Plumbing Clamp
+LINE 70: Plumbing Gauge
+LINE 70: Plumbing Converter
+There were 9 completed rentals this morning.
+The rentals completed were: 
+Paint Brush rented by Van for X days and for a total cost: 10
+Concrete Mixer rented by Marica for X days and for a total cost: 10
+Concrete Spade rented by Rona for X days and for a total cost: 10
+Yard LeafBlower rented by Van for X days and for a total cost: 10
+Wood Router rented by Van for X days and for a total cost: 10
+Wood Drill rented by Van for X days and for a total cost: 10
+Plumbing Clamp rented by Rona for X days and for a total cost: 105
+Plumbing Gauge rented by Van for X days and for a total cost: 420
+Plumbing Converter rented by Van for X days and for a total cost: 5
+Henri rented:
+Concrete Mixer for 1 days.
+Connie rented:
+Wood Router for 2 days.
+**********************OPEN RENTALS***********
+There are 15 active rentals.
+Where: 
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Barrey
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Henri
+Concrete Molder is being rented by Barrey
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Barrey
+Yard Rake is being rented by Palmira
+Yard Lawnmower is being rented by Van
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Barrey
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Connie
+Wood Sawhorse is being rented by Palmira
+*********************************************
+The tools still in store are: 
+Paint Brush
+Concrete Spade
+Yard LeafBlower
+Yard Weedwacker
 Wood Drill
 Plumbing Wrench
 Plumbing Clamp
 Plumbing Gauge
 Plumbing Converter
-The amount of money made on day 1 was 0
+The amount of money made on day 28 was 0
+Today is day: 29
+LINE 70: Paint Roller
+LINE 70: Paint Sprayer
+LINE 70: Concrete Mixer
+LINE 70: Concrete Molder
+LINE 70: Concrete Leveler
+LINE 70: Wood Powersaw
+There were 6 completed rentals this morning.
+The rentals completed were: 
+Paint Roller rented by Barrey for X days and for a total cost: 10
+Paint Sprayer rented by Barrey for X days and for a total cost: 10
+Concrete Mixer rented by Henri for X days and for a total cost: 5
+Concrete Molder rented by Barrey for X days and for a total cost: 10
+Concrete Leveler rented by Barrey for X days and for a total cost: 5
+Wood Powersaw rented by Barrey for X days and for a total cost: 5
+Marica rented:
+Plumbing Converter for 4 days.
+Sixta rented:
+Paint Sprayer for 13 days.
+Concrete Mixer for 13 days.
+Plumbing Wrench for 13 days.
+Barrey rented:
+Plumbing Gauge for 8 days.
+Paint Roller for 8 days.
+Concrete Spade for 8 days.
+Matt rented:
+Concrete Leveler for 1 days.
+Palmira rented:
+Paint Brush for 11 days.
+Concrete Molder for 11 days.
+Yard Weedwacker for 11 days.
+Reginold rented:
+Plumbing Clamp for 3 days.
+Yard LeafBlower for 3 days.
+Wood Drill for 3 days.
+**********************OPEN RENTALS***********
+There are 23 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Matt
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Connie
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Reginold
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Marica
+*********************************************
+The tools still in store are: 
+Wood Powersaw
+The amount of money made on day 29 was 0
+Today is day: 30
+LINE 70: Concrete Leveler
+LINE 70: Wood Router
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Concrete Leveler rented by Matt for X days and for a total cost: 50
+Wood Router rented by Connie for X days and for a total cost: 120
+Matt rented:
+Wood Powersaw for 2 days.
+Reginold rented:
+Concrete Leveler for 4 days.
+Wood Router for 4 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Reginold
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Matt
+Wood Sander is being rented by Reginold
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Reginold
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Marica
+*********************************************
+The tools still in store are: 
+The amount of money made on day 30 was 0
+Today is day: 31
+LINE 70: Wood Sander
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Wood Sander rented by Reginold for X days and for a total cost: 420
+Marica rented:
+Wood Sander for 7 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Van
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Van
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Reginold
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Reginold
+Yard Lawnmower is being rented by Van
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Matt
+Wood Sander is being rented by Marica
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Reginold
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Reginold
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Marica
+*********************************************
+The tools still in store are: 
+The amount of money made on day 31 was 0
+Today is day: 32
+LINE 70: Paint Tray
+LINE 70: Paint Remover
+LINE 70: Yard LeafBlower
+LINE 70: Yard Lawnmower
+LINE 70: Yard Trashbin
+LINE 70: Wood Powersaw
+LINE 70: Wood Drill
+LINE 70: Plumbing Clamp
+There were 8 completed rentals this morning.
+The rentals completed were: 
+Paint Tray rented by Van for X days and for a total cost: 10
+Paint Remover rented by Van for X days and for a total cost: 10
+Yard LeafBlower rented by Reginold for X days and for a total cost: 30
+Yard Lawnmower rented by Van for X days and for a total cost: 10
+Yard Trashbin rented by Van for X days and for a total cost: 10
+Wood Powersaw rented by Matt for X days and for a total cost: 10
+Wood Drill rented by Reginold for X days and for a total cost: 10
+Plumbing Clamp rented by Reginold for X days and for a total cost: 5
+Henri rented:
+Paint Remover for 1 days.
+Connie rented:
+Yard LeafBlower for 1 days.
+**********************OPEN RENTALS***********
+There are 18 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Henri
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Reginold
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Connie
+Yard Weedwacker is being rented by Palmira
+Wood Sander is being rented by Marica
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Plumbing Wrench is being rented by Sixta
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Marica
+*********************************************
+The tools still in store are: 
+Paint Tray
+Yard Lawnmower
+Yard Trashbin
+Wood Powersaw
+Wood Drill
+Plumbing Clamp
+The amount of money made on day 32 was 0
+Today is day: 33
+LINE 70: Paint Remover
+LINE 70: Yard LeafBlower
+LINE 70: Plumbing Converter
+There were 3 completed rentals this morning.
+The rentals completed were: 
+Paint Remover rented by Henri for X days and for a total cost: 10
+Yard LeafBlower rented by Connie for X days and for a total cost: 10
+Plumbing Converter rented by Marica for X days and for a total cost: 5
+Doyle rented:
+Yard Lawnmower for 7 days.
+Paint Remover for 7 days.
+Plumbing Clamp for 7 days.
+Marica rented:
+Wood Drill for 3 days.
+Paint Tray for 3 days.
+Van rented:
+Yard Trashbin for 8 days.
+Yard LeafBlower for 8 days.
+Plumbing Converter for 8 days.
+Wood Powersaw for 8 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Marica
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Doyle
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Reginold
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Doyle
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Van
+Wood Sander is being rented by Marica
+Wood Router is being rented by Reginold
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Marica
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Doyle
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 33 was 0
+Today is day: 34
+LINE 70: Concrete Leveler
+LINE 70: Wood Router
+There were 2 completed rentals this morning.
+The rentals completed were: 
+Concrete Leveler rented by Reginold for X days and for a total cost: 10
+Wood Router rented by Reginold for X days and for a total cost: 240
+Marica rented:
+Wood Router for 5 days.
+Matt rented:
+Concrete Leveler for 1 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Marica
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Doyle
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Matt
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Doyle
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Van
+Wood Sander is being rented by Marica
+Wood Router is being rented by Marica
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Marica
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Doyle
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 34 was 0
+Today is day: 35
+LINE 70: Concrete Leveler
+There were 1 completed rentals this morning.
+The rentals completed were: 
+Concrete Leveler rented by Matt for X days and for a total cost: 50
+Lavonna rented:
+Concrete Leveler for 2 days.
+**********************OPEN RENTALS***********
+There are 24 active rentals.
+Where: 
+Paint Brush is being rented by Palmira
+Paint Tray is being rented by Marica
+Paint Roller is being rented by Barrey
+Paint Sprayer is being rented by Sixta
+Paint Remover is being rented by Doyle
+Concrete Mixer is being rented by Sixta
+Concrete Spade is being rented by Barrey
+Concrete Molder is being rented by Palmira
+Concrete Buffer is being rented by Palmira
+Concrete Leveler is being rented by Lavonna
+Yard Rake is being rented by Palmira
+Yard LeafBlower is being rented by Van
+Yard Lawnmower is being rented by Doyle
+Yard Weedwacker is being rented by Palmira
+Yard Trashbin is being rented by Van
+Wood Powersaw is being rented by Van
+Wood Sander is being rented by Marica
+Wood Router is being rented by Marica
+Wood Sawhorse is being rented by Palmira
+Wood Drill is being rented by Marica
+Plumbing Wrench is being rented by Sixta
+Plumbing Clamp is being rented by Doyle
+Plumbing Gauge is being rented by Barrey
+Plumbing Converter is being rented by Van
+*********************************************
+The tools still in store are: 
+The amount of money made on day 35 was 0
+There were 116 completed rentals over 35 days
 The total amount of money made over 35 days was 0

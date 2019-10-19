@@ -9,8 +9,6 @@ public class BusinessCustomer extends Customer {
 
     @Override
     protected void construct() {
-        // TODO: REMOVE BEFORE FLIGHT
-        System.out.println("Building business customer");
         // add accessories
         this.minToolsRentable = 3;
         this.maxToolsRentable = 3;

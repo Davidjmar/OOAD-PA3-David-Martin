@@ -9,8 +9,6 @@ public class YardworkTool extends Tool {
 
     @Override
     protected void construct() {
-        // TODO: REMOVE BEFORE FLIGHT
-        System.out.println("Building yardwork tool");
         this.price = 10;
         this.totalPrice = 10;
     }

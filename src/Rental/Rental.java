@@ -68,6 +68,40 @@ public abstract class Rental {
         return randomInt;
     }
 
+    public static Tool[] complete(Tool[] openRental) {
+        Tool[] completedRentals;
+        int countCompletedRentals = 0;
+        for (int i = 0; i < openRental.length; i++) {
+            // ...Might be able to remove .rented caluse of if because array passed may only
+            // contain open rentals
+            if (openRental[i].rented == true && openRental[i].daysLeftOfRental == 0) {
+                countCompletedRentals++;
+            }
+        }
+        completedRentals = new Tool[countCompletedRentals];
+        for (int i = 0; i < countCompletedRentals; i++) {
+            for (int j = 0; j < openRental.length; j++) {
+                if (openRental[j].rented == true && openRental[j].daysLeftOfRental == 0) {
+                    System.out.println(openRental[j].toolName);
+                    completedRentals[i] = openRental[j];
+                }
+            }
+        }
+        // We now have an array of completed rentals
+        return completedRentals;
+    }
+
+    public static void cleanCompleted(Tool[] tool) {
+        for (Tool tool2 : tool) {
+            if (tool2.rented == true && tool2.daysLeftOfRental == 0) {
+                tool2.rented = false;
+                tool2.options = null;
+                tool2.totalPrice = tool2.price;
+                tool2.rentedBy = null;
+            }
+        }
+    }
+
     // This will return the array of tools rented by the customer
     public static Tool[] rentTools(Tool[] toolInventory, Customer customer) {
         // determine the number of tools customer is renting and period customer is
@@ -77,10 +111,8 @@ public abstract class Rental {
         Tool[] rentedArr;
         rentedArr = new Tool[customer.toolsRenting];
         for (int rented = 0; rented < rentedArr.length; rented++) {
-
             // Indexing tool inventory for randomization compatability
             while (rentedArr[rented] == null) {
-
                 int randomIndex = randomValueInRange(toolInventory.length, 0);
                 if (toolInventory[randomIndex].rented == false) {
                     toolInventory[randomIndex].daysLeftOfRental = customer.rentingPeriod;
@@ -88,6 +120,7 @@ public abstract class Rental {
                     toolInventory[randomIndex].rented = true;
                     toolInventory[randomIndex].totalPrice = toolInventory[randomIndex].totalPrice
                             * customer.rentingPeriod;
+
                     rentedArr[rented] = toolInventory[randomIndex];
                     OptionHandler.optionPicker(rentedArr[rented]);
                     // This should set the options and calculate total checkout cost

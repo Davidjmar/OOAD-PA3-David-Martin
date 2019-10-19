@@ -9,8 +9,6 @@ public class PlumbingTool extends Tool {
 
     @Override
     protected void construct() {
-        // TODO: REMOVE BEFORE FLIGHT
-        System.out.println("Building plumbing tool");
         this.price = 35;
         this.totalPrice = 35;
     }
