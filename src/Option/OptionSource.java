@@ -3,7 +3,7 @@ package Option;
 import Tool.Tool;
 
 public interface OptionSource {
-    void setOptions(Tool tool);
+    String[] setOptions(Tool tool);
     // This will concatenate the options given by the handler
 
     Integer getCost(Tool tool);

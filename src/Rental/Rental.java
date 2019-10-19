@@ -3,6 +3,7 @@ package Rental;
 import java.util.Random;
 
 import Customer.Customer;
+import Option.OptionHandler;
 import Tool.Tool;
 
 // Rentals will build a rental by being passed a customer
@@ -46,10 +47,18 @@ public abstract class Rental {
     }
 
     public static String[] combine(String[] a, String[] b) {
-        int length = a.length + b.length;
-        String[] result = new String[length];
-        System.arraycopy(a, 0, result, 0, a.length);
-        System.arraycopy(b, 0, result, a.length, b.length);
+        int length;
+        String[] result;
+        if (a == null) {
+            return b;
+        } else if (b == null) {
+            return a;
+        } else {
+            length = a.length + b.length;
+            result = new String[length];
+            System.arraycopy(a, 0, result, 0, a.length);
+            System.arraycopy(b, 0, result, a.length, b.length);
+        }
         return result;
     }
 
@@ -65,9 +74,6 @@ public abstract class Rental {
         // renting for (cleared for max tools by bouncer)
 
         // ** Pick array of random unrented tools and add to rented array
-        // Initialize rented array size
-        // TODO: REMOVE BEFORE FLIGHT
-        // System.out.println("Tools renting = " + customer.toolsRenting);
         Tool[] rentedArr;
         rentedArr = new Tool[customer.toolsRenting];
         for (int rented = 0; rented < rentedArr.length; rented++) {
@@ -77,31 +83,17 @@ public abstract class Rental {
 
                 int randomIndex = randomValueInRange(toolInventory.length, 0);
                 if (toolInventory[randomIndex].rented == false) {
-                    rentedArr[rented] = toolInventory[randomIndex];
                     toolInventory[randomIndex].daysLeftOfRental = customer.rentingPeriod;
                     toolInventory[randomIndex].rentedBy = customer;
                     toolInventory[randomIndex].rented = true;
-                    rentedArr[rented].daysLeftOfRental = customer.rentingPeriod;
-                    rentedArr[rented].rentedBy = customer;
-                    rentedArr[rented].rented = true;
-                    // TODO:
-                    // Call the options handler HERE
-
-                    // set the tools properties to reflect rental
+                    toolInventory[randomIndex].totalPrice = toolInventory[randomIndex].totalPrice
+                            * customer.rentingPeriod;
+                    rentedArr[rented] = toolInventory[randomIndex];
+                    OptionHandler.optionPicker(rentedArr[rented]);
+                    // This should set the options and calculate total checkout cost
                 }
             }
         }
         return rentedArr;
     }
-
-    // TODO: Write the handler that will pick a number from 0-6 and use switches to
-    // randomize the package options. The handler will then set the options for each
-    // item in the Tool[] it is passed.
-    // we may want to seperate this into a different package for the decorator class
-    // public abstract void setOptions(Tool tool);
-    // // Don't set tools.options yet, leave it null until otherwise
-
-    // // This will return the individual cost of the item and also add it to the
-    // // tool's total cost property
-    // public abstract Integer getCost(Tool tool);
 }

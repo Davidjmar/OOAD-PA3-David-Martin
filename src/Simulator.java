@@ -40,7 +40,7 @@ public class Simulator {
         PrintStream out = new PrintStream("./output.txt");
         System.setOut(out);
 
-        int days = 35;
+        int days = 1;
 
         Tool[] toolArr;
         toolArr = ToolInventory.buildArray();
@@ -103,6 +103,8 @@ public class Simulator {
             }
             // DAY'S CUSTOMER ARRAY INITIALIZED
 
+            // CREATE DAY'S RENTALS!!!
+            // *********************************************************
             // Call the customer to make a rental IF inventory allows it
             for (int j = 0; j < numberOfCustomers; j++) {
                 // CHECK IF THERE IS INVENTORY FOR DAY'S CUSTOMER[i]
@@ -119,6 +121,7 @@ public class Simulator {
                 }
                 // ELSE let for loop move past the current customer. Let someone else try.
             }
+            // *********************************************************
 
             // PRINT ALL RENTED TOOLS AND THE CUSTOMER RENTING
             // DEPRECATE THE DAYS LEFT OF TOOLS RENTAL WHILE LOOPING THROUGH.
@@ -153,7 +156,6 @@ public class Simulator {
 
             // PRINT DAY'S PROFIT
             System.out.println("The amount of money made on day " + i + " was " + dailyProfit);
-
             // DEPRECATE THE DAYS LEFT OF RENTAL IN THE RENTALS ARRAY
         }
 
