@@ -7,6 +7,9 @@ import java.util.stream.IntStream;
 
 import Customer.Customer;
 import Customer.InitCustomers;
+import Pos.MyTopic;
+import Pos.Observer;
+import Pos.Pos;
 import Rental.Rental;
 import Tool.Tool;
 import Tool.ToolInventory;
@@ -40,6 +43,11 @@ public class Simulator {
         PrintStream out = new PrintStream("./output.txt");
         System.setOut(out);
 
+        MyTopic topic = new MyTopic();
+        Observer pos = new Pos("Pos System");
+        topic.register(pos);
+        pos.setSubject(topic);
+
         int days = 35;
 
         Tool[] toolArr;
@@ -53,18 +61,17 @@ public class Simulator {
         // SIMULATION
         // ############################################################
         // CONSTANTS:
-        int dailyProfit = 0;
         int totalProfit = 0;
         int totalCompletedRentals = 0;
         int totalRegularCompleted = 0;
         int totalBusinessCompleted = 0;
         int totalCasualCompleted = 0;
-        Tool[] allCompletedRentals;
         for (int i = 1; i <= days; i++) {
+            int dailyProfit = 0;
 
-            System.out.println("Today is day: " + i);
+            System.out.println("******************************  New  Day  ******************************");
+            topic.postMessage("Today is day: " + i);
 
-            Tool[] completedRental = new Tool[toolArr.length];
             int rentalCompletedCount = 0;
             for (Tool t : toolArr) {
                 if (t.rented == true && t.daysLeftOfRental == 0) {
@@ -84,10 +91,22 @@ public class Simulator {
             System.out.println("The rentals completed were: ");
             for (int l = 0; l < toolArr.length; l++) {
                 if (toolArr[l].rented == true && toolArr[l].daysLeftOfRental == 0) {
-                    System.out.println(toolArr[l].toolName + " rented by " + toolArr[l].rentedBy.customerName
-                            + " for X days and for a total cost: " + toolArr[l].totalPrice);
+                    System.out.println(toolArr[l].toolName + " rented by " + toolArr[l].rentedBy.customerName + " for "
+                            + toolArr[l].rentedBy.rentingPeriod + " days and for a total cost: "
+                            + toolArr[l].totalPrice);
+                    if (toolArr[l].options != null) {
+                        System.out.println("It was rented with option(s): ");
+                        for (String option : toolArr[l].options) {
+                            System.out.println(option);
+                        }
+                    } else {
+                        System.out.println("It was rented with no options");
+                    }
                 }
+
             }
+            pos.update();
+            topic.postMessage("Completed the completed rentals");
             // Call a Rental function cleanCompleted that removes rented by, days left,
             // options
             // and sets rented = false, and resets total price to tool.price --> arguments =
@@ -123,11 +142,11 @@ public class Simulator {
             // CREATE DAY'S RENTALS!!!
             // *********************************************************
             // Call the customer to make a rental IF inventory allows it
+            Tool[] customerRented;
             for (int j = 0; j < numberOfCustomers; j++) {
                 // CHECK IF THERE IS INVENTORY FOR DAY'S CUSTOMER[i]
-                if (Rental.storeBouncer(toolArr, dayCustomers[j])) {
+                if (Rental.storeBouncer(toolArr, dayCustomers[j]) == true) {
                     // CREATE RENTALS FOR CUSTOMER
-                    Tool[] customerRented;
                     // rentTools encapsulates options
                     customerRented = Rental.rentTools(toolArr, dayCustomers[j]);
 
@@ -138,7 +157,10 @@ public class Simulator {
                         System.out.println(customerRented[tester].toolName + " for "
                                 + customerRented[tester].daysLeftOfRental + " days.");
                     }
+                    for (int j2 = 0; j2 < customerRented.length; j2++) {
+                        dailyProfit += customerRented[j2].totalPrice;
 
+                    }
                 }
                 // ELSE let for loop move past the current customer. Let someone else try.
             }
@@ -151,7 +173,7 @@ public class Simulator {
                     activeRentals++;
                 }
             }
-            System.out.println("**********************OPEN RENTALS***********");
+            topic.postMessage("**************OPEN RENTALS***********");
             System.out.println("There are " + activeRentals + " active rentals.\n" + "Where: ");
             String[] activeRenter = new String[activeRentals];
             int seperateIndexer = 0;
@@ -166,7 +188,7 @@ public class Simulator {
             for (String r : activeRenter) {
                 System.out.println(r);
             }
-            System.out.println("*********************************************");
+            topic.postMessage("********************END**********************");
 
             // Print Tools left in the store
             System.out.println("The tools still in store are: ");
@@ -185,14 +207,15 @@ public class Simulator {
                     tool.daysLeftOfRental = tool.daysLeftOfRental - 1;
                 }
             }
+            totalProfit += dailyProfit;
             // This should create an array of the open rentals at the end of each day
         }
 
         // TODO:
         // 1. Total count of completed rentals by each customer type
         // 2. Total count of completed rentals (could just sum previous counts)
-        System.out.println("There were " + totalCompletedRentals + " completed rentals over 35 days");
+        topic.postMessage("There were " + totalCompletedRentals + " completed rentals over 35 days");
         // PRINT TOTAL PROFITED
-        System.out.println("The total amount of money made over 35 days was " + totalProfit);
+        topic.postMessage("The total amount of money made over 35 days was " + totalProfit);
     }
 }

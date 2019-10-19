@@ -36,7 +36,7 @@ public abstract class Rental {
             customer.toolsRenting = customer.minToolsRentable;
             customer.rentingPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
             return true;
-        } else if (count > customer.minToolsRentable && count < customer.maxToolsRentable) {
+        } else if (count > customer.minToolsRentable && count <= customer.maxToolsRentable) {
             // If the remaining inventory is within their range of rentaable items
             customer.toolsRenting = randomValueInRange(count, customer.minToolsRentable);
             customer.rentingPeriod = randomValueInRange(customer.maxRentalPeriod, customer.minRentalPeriod);
@@ -63,32 +63,14 @@ public abstract class Rental {
     }
 
     public static Integer randomValueInRange(Integer max, Integer min) {
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(max) + min;
-        return randomInt;
-    }
-
-    public static Tool[] complete(Tool[] openRental) {
-        Tool[] completedRentals;
-        int countCompletedRentals = 0;
-        for (int i = 0; i < openRental.length; i++) {
-            // ...Might be able to remove .rented caluse of if because array passed may only
-            // contain open rentals
-            if (openRental[i].rented == true && openRental[i].daysLeftOfRental == 0) {
-                countCompletedRentals++;
-            }
+        if (min > max) {
+            throw new IllegalArgumentException("max must be greater than min");
         }
-        completedRentals = new Tool[countCompletedRentals];
-        for (int i = 0; i < countCompletedRentals; i++) {
-            for (int j = 0; j < openRental.length; j++) {
-                if (openRental[j].rented == true && openRental[j].daysLeftOfRental == 0) {
-                    System.out.println(openRental[j].toolName);
-                    completedRentals[i] = openRental[j];
-                }
-            }
+        if (min == max) {
+            return max;
         }
-        // We now have an array of completed rentals
-        return completedRentals;
+        Random r = new Random();
+        return r.nextInt((max - min) + 1) + min;
     }
 
     public static void cleanCompleted(Tool[] tool) {
@@ -113,7 +95,7 @@ public abstract class Rental {
         for (int rented = 0; rented < rentedArr.length; rented++) {
             // Indexing tool inventory for randomization compatability
             while (rentedArr[rented] == null) {
-                int randomIndex = randomValueInRange(toolInventory.length, 0);
+                int randomIndex = randomValueInRange(toolInventory.length - 1, 0);
                 if (toolInventory[randomIndex].rented == false) {
                     toolInventory[randomIndex].daysLeftOfRental = customer.rentingPeriod;
                     toolInventory[randomIndex].rentedBy = customer;
